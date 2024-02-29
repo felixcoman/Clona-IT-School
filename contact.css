@@ -1,0 +1,130 @@
+:root {
+  --width-img-card-trainer: 280px;
+  --dim-img-trainer: 150px;
+  --jumate-negativ: -2;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.headline-despre {
+  display: flex;
+  background-color: #141e4c;
+  width: 100%;
+  height: 50vh;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+}
+.headline-despre h1 {
+  font-weight: bold;
+  font-weight: bold;
+  font-size: clamp(2.5rem, 2vw, 3.5rem);
+}
+.sectiune-contact {
+  margin-bottom: 30px;
+}
+.sectiune-contact-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 0;
+  width: 50%;
+  margin: auto;
+}
+.sectiune-contact h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding: 5px;
+}
+.sectiune-contact p {
+  font-size: 0.875rem;
+  margin-bottom: 0;
+  text-align: left;
+}
+.container-contact {
+  display: flex;
+  justify-content: center;
+  font-size: 0.875rem;
+  margin: auto;
+}
+.sectiune-informatii,
+.sectiune-formular {
+  width: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.sectiune-informatii span {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  padding: 10px 1px;
+}
+.sectiune-informatii div {
+  display: flex;
+  align-self: flex-start;
+  color: #2b2922;
+  align-items: center;
+}
+.sectiune-informatii a {
+  text-decoration: none;
+  color: #8e8e8e;
+}
+.sectiune-informatii svg {
+  padding-right: 3px;
+  font-size: 24px;
+}
+.sectiune-formular {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectiune-formular label,
+input,
+textarea {
+  padding: 10px 1px;
+}
+.sectiune-formular input,
+textarea {
+  color: darkgray;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 3px;
+}
+.sectiune-formular textarea {
+  height: 200px;
+}
+.sectiune-formular input[type="submit"] {
+  text-align: center;
+  color: #fff;
+  background-color: #2bb686;
+  border-color: #2bb686;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 100px;
+}
+@media screen and (max-width: 768px) {
+  .container-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .sectiune-informatii,
+  .sectiune-formular {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .sectiune-contact-text {
+    width: 100%;
+    padding: 20px;
+  }
+  .sectiune-informatii,
+  .sectiune-formular {
+    width: 100%;
+  }
+}

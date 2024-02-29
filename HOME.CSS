@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container-primire {
+  background-color: #141e4c;
+  width: 100%;
+}
+.primire {
+  padding: 155px 30px;
+  margin-bottom: 50px;
+  width: 55vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  background-color: #141e4c;
+}
+.primire h1 {
+  color: white;
+  font-weight: 700;
+  font-size: clamp(2.5rem, 2vw, 3.5rem);
+}
+.primire p {
+  color: white;
+  font-size: clamp(10px 15px);
+}
+.primire p span {
+  color: #fbb44c;
+}
+.primire img {
+  margin: 7px 7px;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(4%) saturate(7500%)
+    hue-rotate(63deg) brightness(117%) contrast(108%);
+}
+.primire button {
+  width: 200px;
+  height: 50px;
+  background-color: #2bb686;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.primire button:hover {
+  background-color: transparent;
+  border: 2px solid #2bb686;
+}
+
+.calendar {
+  display: grid;
+  gap: 20px;
+  width: 55vw;
+  margin: auto;
+  grid-template-columns: repeat(auto-fit, minmax(calc(50vw / 3), 1fr));
+  margin-bottom: 40px;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.calendar-main {
+  background-color: #fff;
+  width: 100%;
+}
+.calendar-card {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border: 1px solid rgb(216, 216, 216);
+}
+.calendar-card p:not(.calendar-details p) {
+  font-size: 25px;
+}
+.calendar-details span {
+  background-color: #fbb44c;
+}
+.bara {
+  width: 100%;
+  height: 4px;
+  background-color: #2bb686;
+  border-radius: 5px;
+}
+
+main {
+  display: flex;
+  background-color: #dfedf5;
+  padding: 40px 40px;
+  flex-direction: column;
+  align-items: center;
+}
+main h3 {
+  text-align: center;
+  font-weight: 700;
+  color: #141e4c;
+}
+main p {
+  font-size: 15px;
+  text-align: center;
+  width: 55vw;
+}
+.image-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 55vw;
+  gap: 10px;
+}
+.image-container img {
+  max-width: 100%;
+}
+
+/* SECTIUNEA PARTENERI */
+
+.parteneri-main {
+  width: 60vw;
+  height: fit-content;
+  margin: auto;
+  background-color: #fff;
+  padding: 40px 0px 40px 0px;
+}
+.parteneri-main h3 {
+  text-align: center;
+  font-weight: 700;
+  color: #141e4c;
+}
+
+.parteneri-subgroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13%;
+  justify-content: center;
+}
+
+.partener-box {
+  width: 100px;
+}
+.parteneri-main img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+}
+.parteneri-main img:hover {
+  filter: grayscale(0%);
+}
+/* RESPONSIVE */
+@media screen and (max-width: 1440px) {
+  .primire {
+    width: 95vw;
+  }
+  .calendar {
+    width: 90vw;
+    grid-template-columns: repeat(auto-fit, minmax(calc(80vw / 3), 1fr));
+  }
+  main p,
+  .image-container,
+  .parteneri-main {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .primire-certificare {
+    display: flex;
+    flex-direction: column;
+  }
+  .primire button {
+    display: none;
+  }
+  .calendar,
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: none;
+  }
+}

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COPIE Clona IT School</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="HOME.CSS" />
+    <link rel="stylesheet" href="navbar.CSS" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+  <body>
+    <nav>
+      <!-- NAVBAR CU DROPDOWN-->
+      <div class="nav-bar">
+        <a href="HOME.HTML">
+          <img
+            src="https://itschool-clone.netlify.app/img/itschool-logo.png"
+            alt="home logo"
+          />
+        </a>
+        <div class="navbar-group">
+          <a href="cursuri.html">CURSURI ONLINE</a>
+          <!-- DROPDOWN FULLSCREEN -->
+          <div class="dropdown-fullscreen">
+            <button class="dropbtn-fullscreen">
+              <a href="despre.html">
+                DESPRE NOI
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-caret-down-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                  />
+                </svg>
+              </a>
+            </button>
+            <ul popover class="dropdown-content-fullscreen">
+              <!-- dropdown-menu-items-fullscreen -->
+              <li><a href="HOME.HTML">IT SCHOOL</a></li>
+              <li><a href="despre.html">DESPRE NOI</a></li>
+            </ul>
+          </div>
+          <!-- SFARSIT DROPDOWN FULLSCREEN -->
+          <a href="contact.html">CONTACT</a>
+        </div>
+        <!-- MENIU CU DROPDOWN ECRAN MIC-->
+        <div class="dropdown">
+          <button
+            class="menu-btn"
+            popovertarget="dropdown-menu-items"
+            popovertargetaction="toggle"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+              />
+            </svg>
+          </button>
+          <!-- MENIU ECRAN MIC-->
+          <ul popover class="dropdown-menu-items" id="dropdown-menu-items">
+            <li>
+              <a class="dropdown-item" href="cursuri.html">CURSURI ONLINE</a>
+            </li>
+            <li><a class="dropdown-item" href="despre.html">DESPRE NOI</a></li>
+            <li><a class="dropdown-item" href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="container-primire">
+    <section class="primire">
+      <h1>Bine ai venit!</h1>
+      <p >
+        Accelerator de cariere in <span>{</span>web development<span>}</span>
+      </p>
+      <p class="primire-certificare">
+        Cursuri IT pentru incepatori cu certificare
+        <img src="https://itschool-clone.netlify.app/img/microsoft.png" width="100px"/>
+        <img src="https://itschool-clone.netlify.app/img/adobe.png" width="90px" />
+        <img src="https://itschool-clone.netlify.app/img/apple.png" width="30px" />
+        <img src="https://itschool-clone.netlify.app/img/minister.png" width="150px" />
+      </p>
+      <button>AFLA MAI MULTE</button>
+    </section>
+  </section>
+ 
+  <section class="calendar-main">
+    <h2>Calendar cursuri</h2>
+    <div class="calendar">
+      <div class="calendar-card">
+        <p>Python</p>
+        <div class="calendar-details">
+          <p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              fill="currentColor"
+              class="bi bi-calendar-event"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+              />
+              <path
+                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"
+              />
+            </svg>
+            In curand
+
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="currentColor"
+                class="bi bi-geo-alt"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                />
+                <path
+                  d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                />
+              </svg>
+              Online
+            </span>
+          </p>
+        </div>
+        <div class="bara"></div>
+      </div>
+      <div class="calendar-card">
+        <p>Web development</p>
+        <div class="calendar-details">
+          <p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              fill="currentColor"
+              class="bi bi-calendar-event"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+              />
+              <path
+                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"
+              />
+            </svg>
+            In curand
+
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="currentColor"
+                class="bi bi-geo-alt"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                />
+                <path
+                  d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                />
+              </svg>
+              Online
+            </span>
+          </p>
+        </div>
+        <div class="bara"></div>
+      </div>
+      <div class="calendar-card">
+        <p>Introducere in IT</p>
+        <div class="calendar-details">
+          <p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              fill="currentColor"
+              class="bi bi-calendar-event"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+              />
+              <path
+                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"
+              />
+            </svg>
+            In curand
+
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="currentColor"
+                class="bi bi-geo-alt"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                />
+                <path
+                  d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                />
+              </svg>
+              Online
+            </span>
+          </p>
+        </div>
+        <div class="bara"></div>
+      </div>
+      <div class="calendar-card">
+        <p>Programare C++</p>
+        <div class="calendar-details">
+          <p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              fill="currentColor"
+              class="bi bi-calendar-event"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+              />
+              <path
+                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"
+              />
+            </svg>
+            In curand
+
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="currentColor"
+                class="bi bi-geo-alt"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                />
+                <path
+                  d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                />
+              </svg>
+              Online
+            </span>
+          </p>
+        </div>
+        <div class="bara"></div>
+      </div>
+      <div class="calendar-card">
+        <p>Programare Java</p>
+        <div class="calendar-details">
+          <p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              fill="currentColor"
+              class="bi bi-calendar-event"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+              />
+              <path
+                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"
+              />
+            </svg>
+            In curand
+
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="currentColor"
+                class="bi bi-geo-alt"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                />
+                <path
+                  d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                />
+              </svg>
+              Online
+            </span>
+          </p>
+        </div>
+        <div class="bara"></div>
+      </div>
+      <div class="calendar-card">
+        <p>Graphic Design</p>
+        <div class="calendar-details">
+          <p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              fill="currentColor"
+              class="bi bi-calendar-event"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+              />
+              <path
+                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"
+              />
+            </svg>
+            In curand
+
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="currentColor"
+                class="bi bi-geo-alt"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                />
+                <path
+                  d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                />
+              </svg>
+              Online
+            </span>
+          </p>
+        </div>
+        <div class="bara"></div>
+      </div>
+    </div>
+  </section>
+    <main>
+      <h3>Ce este IT School</h3>
+      <p>
+        IT School este o comunitate educațională de IT, locul unde pasionații
+        acestui domeniu se întâlnesc cu viitorii profesioniști. Timp de peste 7
+        ani, am construit alături de trainerii IT School un mediu de învățare
+        specializat pentru toți cei care își doresc să descopere oportunitățile
+        acestui domeniu. Ești pregătit să faci parte din comunitatea IT School?
+      </p>
+      <div class="image-container">
+        <img src="https://itschool-clone.netlify.app/img/about-us-1.jpeg" />
+        <img src="https://itschool-clone.netlify.app/img/about-us-2.jpeg" />
+        <img src="https://itschool-clone.netlify.app/img/about-us-3.jpeg" />
+        <img src="https://itschool-clone.netlify.app/img/about-us-4.jpeg" />
+        <img src="https://itschool-clone.netlify.app/img/about-us-5.jpeg" />
+        <img src="https://itschool-clone.netlify.app/img/about-us-6.jpeg" />
+      </div>
+    </main>
+    <!-- SECTIUNEA PARTENERI -->
+    <section class="parteneri-main">
+      <h3>Parteneri</p>
+      <div class="parteneri-subgroup">
+        <div class="partener-box">
+          <img src="https://itschool-clone.netlify.app/img/toluna.png" />
+        </div>
+        <div class="partener-box">
+          <img
+            src="https://itschool-clone.netlify.app/img/123formbuilder.png"
+          />
+        </div>
+        <div class="partener-box">
+          <img src="https://itschool-clone.netlify.app/img/nagarro.png" />
+        </div>
+        <div class="partener-box">
+          <img src="https://itschool-clone.netlify.app/img/cognizant.png" />
+        </div>
+        <div class="partener-box">
+          <img
+            src="https://itschool-clone.netlify.app/img/dreamproduction.png"
+          />
+        </div>
+        <div class="partener-box">
+          <img src="https://itschool-clone.netlify.app/img/ness.png" />
+        </div>
+        <div class="partener-box">
+          <img src="https://itschool-clone.netlify.app/img/instapage.png" />
+        </div>
+        <div class="partener-box">
+          <img src="https://itschool-clone.netlify.app/img/amdaris.png" />
+        </div>
+        <div class="partener-box">
+          <img src="https://itschool-clone.netlify.app/img/fortech.png" />
+        </div>
+        <div class="partener-box">
+          <img src="https://itschool-clone.netlify.app/img/visma.png" />
+        </div>
+      </div>
+    </section>
+    <!-- SECTIUNEA FOOTER -->
+    <footer>
+      <p>IT School România © 2021. Toate drepturile rezervate.</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

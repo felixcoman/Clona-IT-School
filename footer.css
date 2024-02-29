@@ -1,0 +1,11 @@
+/* SECTIUNEA FOOTER */
+footer {
+  position: static;
+  width: 100%;
+  height: 90px;
+  background-color: #141e4c;
+  text-align: center;
+  font-size: 80%;
+  color: #fff;
+  padding: 1%;
+}

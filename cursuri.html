@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COPIE Clona IT School</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="navbar.CSS" />
+    <link rel="stylesheet" href="cursuri.CSS" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <!-- NAVBAR CU DROPDOWN-->
+      <div class="nav-bar">
+        <a href="HOME.HTML">
+          <img
+            src="https://itschool-clone.netlify.app/img/itschool-logo.png"
+            alt="home logo"
+          />
+        </a>
+        <div class="navbar-group">
+          <a href="cursuri.html">CURSURI ONLINE</a>
+          <!-- DROPDOWN FULLSCREEN -->
+          <div class="dropdown-fullscreen">
+            <button class="dropbtn-fullscreen">
+              <a href="despre.html">
+                DESPRE NOI
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-caret-down-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                  />
+                </svg>
+              </a>
+            </button>
+            <ul popover class="dropdown-content-fullscreen">
+              <!-- dropdown-menu-items-fullscreen -->
+              <li><a href="HOME.HTML">IT SCHOOL</a></li>
+              <li><a href="despre.html">DESPRE NOI</a></li>
+            </ul>
+          </div>
+          <!-- SFARSIT DROPDOWN FULLSCREEN -->
+          <a href="contact.html">CONTACT</a>
+        </div>
+        <!-- MENIU CU DROPDOWN ECRAN MIC-->
+        <div class="dropdown">
+          <button
+            class="menu-btn"
+            popovertarget="dropdown-menu-items"
+            popovertargetaction="toggle"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+              />
+            </svg>
+          </button>
+          <!-- MENIU ECRAN MIC-->
+          <ul popover class="dropdown-menu-items" id="dropdown-menu-items">
+            <li>
+              <a class="dropdown-item" href="cursuri.html">CURSURI ONLINE</a>
+            </li>
+            <li><a class="dropdown-item" href="despre.html">DESPRE NOI</a></li>
+            <li><a class="dropdown-item" href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="headline-cursuri">
+      <h1>Cursuri IT Online, live</h1>
+    </section>
+    <section class="container-sectiune-pregatire">
+      <div class="sectiune-pregatire">
+        <div class="sectiune-pregatire-text">
+          <h2>Programe de pregătire</h2>
+          <p>
+            Acum este posibil să te pregătești pentru o carieră în IT din
+            confortul și siguranța casei tale. Cursurile se vor desfășura în
+            mediul online, prin
+            <b>sesiuni de training interactive, live,</b> alături de trainer.
+            Dacă îți dorești să faci parte din această industrie, începe astăzi
+            un program de pregătire care îți oferă șanse reale de angajare după
+            absolvire.
+          </p>
+        </div>
+        <div class="banda-carduri-pregatire">
+          <div class="card-pregatire">
+            <img
+              class="img-card"
+              src="https://itschool-clone.netlify.app/img/python.jpeg"
+            />
+            <h3>Programare Python</h3>
+            <p>
+              Certificare
+              <img
+                class="img-cert"
+                src="https://itschool-clone.netlify.app/img/microsoft-color.png"
+              />
+            </p>
+            <div>
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-calendar-event"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+                  />
+                  <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"
+                  /></svg
+                >In curand</span
+              >
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-suitcase-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M5 2a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2h3.5A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5H14a.5.5 0 0 1-1 0H3a.5.5 0 0 1-1 0h-.5A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2zm1 0h4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1M1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5H3V3zM15 12.5v-9a.5.5 0 0 0-.5-.5H13v10h1.5a.5.5 0 0 0 .5-.5m-3 .5V3H4v10z"
+                  /></svg
+                >5 luni</span
+              >
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-clock"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"
+                  />
+                  <path
+                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"
+                  /></svg
+                >100 ore</span
+              >
+              <br />
+              <button class="buton-card">Detalii</button>
+            </div>
+          </div>
+          <div class="card-pregatire">
+            <img
+              class="img-card"
+              src="https://itschool-clone.netlify.app/img/web-dev.jpeg"
+            />
+            <h3>Web Development</h3>
+            <p>
+              Certificare
+              <img
+                class="img-cert"
+                src="https://itschool-clone.netlify.app/img/microsoft-color.png"
+              />
+            </p>
+            <div>
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-calendar-event"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+                  />
+                  <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"
+                  /></svg
+                >In curand</span
+              >
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-suitcase-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M5 2a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2h3.5A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5H14a.5.5 0 0 1-1 0H3a.5.5 0 0 1-1 0h-.5A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2zm1 0h4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1M1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5H3V3zM15 12.5v-9a.5.5 0 0 0-.5-.5H13v10h1.5a.5.5 0 0 0 .5-.5m-3 .5V3H4v10z"
+                  /></svg
+                >5 luni</span
+              >
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-clock"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"
+                  />
+                  <path
+                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"
+                  /></svg
+                >100 ore</span
+              >
+              <br />
+              <button class="buton-card">Detalii</button>
+            </div>
+          </div>
+          <div class="card-pregatire">
+            <img
+              class="img-card"
+              src="https://itschool-clone.netlify.app/img/Java.jpeg"
+            />
+            <h3>Programare Java</h3>
+            <p>
+              Certificare
+              <img
+                class="img-cert"
+                src="https://itschool-clone.netlify.app/img/microsoft-color.png"
+              />
+            </p>
+            <div>
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-calendar-event"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+                  />
+                  <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"
+                  /></svg
+                >In curand</span
+              >
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-suitcase-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M5 2a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2h3.5A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5H14a.5.5 0 0 1-1 0H3a.5.5 0 0 1-1 0h-.5A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2zm1 0h4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1M1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5H3V3zM15 12.5v-9a.5.5 0 0 0-.5-.5H13v10h1.5a.5.5 0 0 0 .5-.5m-3 .5V3H4v10z"
+                  /></svg
+                >5 luni</span
+              >
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-clock"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"
+                  />
+                  <path
+                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"
+                  /></svg
+                >100 ore</span
+              >
+              <br />
+              <button class="buton-card">Detalii</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section></section>
+    <footer>
+      <p>IT School România © 2021. Toate drepturile rezervate.</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
